@@ -1,0 +1,741 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		29E920108A542341207FE9C1 /* libPods-自定义弹出按钮和方向.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 185F16F3C97EBD2369DD2D92 /* libPods-自定义弹出按钮和方向.a */; };
+		3DDE9970A71BF204A2A45081 /* libPods-自定义弹出按钮和方向UITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9604A673280D16A16B0B570F /* libPods-自定义弹出按钮和方向UITests.a */; };
+		867623A8153F2A6592A4A8FC /* libPods-自定义弹出按钮和方向Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B274F8826D9D0CD2B2C8941 /* libPods-自定义弹出按钮和方向Tests.a */; };
+		E86AC40A1E8CC7D000AC91E4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E86AC4091E8CC7D000AC91E4 /* main.m */; };
+		E86AC40D1E8CC7D000AC91E4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E86AC40C1E8CC7D000AC91E4 /* AppDelegate.m */; };
+		E86AC4101E8CC7D000AC91E4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E86AC40F1E8CC7D000AC91E4 /* ViewController.m */; };
+		E86AC4131E8CC7D000AC91E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E86AC4111E8CC7D000AC91E4 /* Main.storyboard */; };
+		E86AC4151E8CC7D000AC91E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E86AC4141E8CC7D000AC91E4 /* Assets.xcassets */; };
+		E86AC4181E8CC7D000AC91E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E86AC4161E8CC7D000AC91E4 /* LaunchScreen.storyboard */; };
+		E86AC4231E8CC7D100AC91E4 /* __________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = E86AC4221E8CC7D100AC91E4 /* __________Tests.m */; };
+		E86AC42E1E8CC7D100AC91E4 /* __________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E86AC42D1E8CC7D100AC91E4 /* __________UITests.m */; };
+		E86AC43E1E8CC9B800AC91E4 /* SCXPopView.m in Sources */ = {isa = PBXBuildFile; fileRef = E86AC43D1E8CC9B800AC91E4 /* SCXPopView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E86AC41F1E8CC7D100AC91E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E86AC3FD1E8CC7D000AC91E4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E86AC4041E8CC7D000AC91E4;
+			remoteInfo = "自定义弹出按钮和方向";
+		};
+		E86AC42A1E8CC7D100AC91E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E86AC3FD1E8CC7D000AC91E4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E86AC4041E8CC7D000AC91E4;
+			remoteInfo = "自定义弹出按钮和方向";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		185F16F3C97EBD2369DD2D92 /* libPods-自定义弹出按钮和方向.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-自定义弹出按钮和方向.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		695E2ECA59E8EDB9C953F4DB /* Pods-自定义弹出按钮和方向Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-自定义弹出按钮和方向Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-自定义弹出按钮和方向Tests/Pods-自定义弹出按钮和方向Tests.release.xcconfig"; sourceTree = "<group>"; };
+		78FC47470C658AD6825E434B /* Pods-自定义弹出按钮和方向.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-自定义弹出按钮和方向.debug.xcconfig"; path = "Pods/Target Support Files/Pods-自定义弹出按钮和方向/Pods-自定义弹出按钮和方向.debug.xcconfig"; sourceTree = "<group>"; };
+		8455E51730DDC8DD00629BE3 /* Pods-自定义弹出按钮和方向UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-自定义弹出按钮和方向UITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-自定义弹出按钮和方向UITests/Pods-自定义弹出按钮和方向UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8B274F8826D9D0CD2B2C8941 /* libPods-自定义弹出按钮和方向Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-自定义弹出按钮和方向Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9604A673280D16A16B0B570F /* libPods-自定义弹出按钮和方向UITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-自定义弹出按钮和方向UITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB7EF2F3B32D870C82AF8F67 /* Pods-自定义弹出按钮和方向UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-自定义弹出按钮和方向UITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-自定义弹出按钮和方向UITests/Pods-自定义弹出按钮和方向UITests.release.xcconfig"; sourceTree = "<group>"; };
+		CC4758857FE02DB9012C3AE8 /* Pods-自定义弹出按钮和方向.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-自定义弹出按钮和方向.release.xcconfig"; path = "Pods/Target Support Files/Pods-自定义弹出按钮和方向/Pods-自定义弹出按钮和方向.release.xcconfig"; sourceTree = "<group>"; };
+		E86AC4051E8CC7D000AC91E4 /* 自定义弹出按钮和方向.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "自定义弹出按钮和方向.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E86AC4091E8CC7D000AC91E4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E86AC40B1E8CC7D000AC91E4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E86AC40C1E8CC7D000AC91E4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E86AC40E1E8CC7D000AC91E4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E86AC40F1E8CC7D000AC91E4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E86AC4121E8CC7D000AC91E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E86AC4141E8CC7D000AC91E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E86AC4171E8CC7D000AC91E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E86AC4191E8CC7D000AC91E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E86AC41E1E8CC7D100AC91E4 /* 自定义弹出按钮和方向Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "自定义弹出按钮和方向Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E86AC4221E8CC7D100AC91E4 /* __________Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = __________Tests.m; sourceTree = "<group>"; };
+		E86AC4241E8CC7D100AC91E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E86AC4291E8CC7D100AC91E4 /* 自定义弹出按钮和方向UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "自定义弹出按钮和方向UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E86AC42D1E8CC7D100AC91E4 /* __________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = __________UITests.m; sourceTree = "<group>"; };
+		E86AC42F1E8CC7D100AC91E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E86AC43C1E8CC9B800AC91E4 /* SCXPopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCXPopView.h; sourceTree = "<group>"; };
+		E86AC43D1E8CC9B800AC91E4 /* SCXPopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCXPopView.m; sourceTree = "<group>"; };
+		E86AC43F1E8CDA7500AC91E4 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		F7734332B456BCD5E1BE9F00 /* Pods-自定义弹出按钮和方向Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-自定义弹出按钮和方向Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-自定义弹出按钮和方向Tests/Pods-自定义弹出按钮和方向Tests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E86AC4021E8CC7D000AC91E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29E920108A542341207FE9C1 /* libPods-自定义弹出按钮和方向.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E86AC41B1E8CC7D100AC91E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				867623A8153F2A6592A4A8FC /* libPods-自定义弹出按钮和方向Tests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E86AC4261E8CC7D100AC91E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DDE9970A71BF204A2A45081 /* libPods-自定义弹出按钮和方向UITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		191C25D4DFF6707BAC2D1955 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				78FC47470C658AD6825E434B /* Pods-自定义弹出按钮和方向.debug.xcconfig */,
+				CC4758857FE02DB9012C3AE8 /* Pods-自定义弹出按钮和方向.release.xcconfig */,
+				F7734332B456BCD5E1BE9F00 /* Pods-自定义弹出按钮和方向Tests.debug.xcconfig */,
+				695E2ECA59E8EDB9C953F4DB /* Pods-自定义弹出按钮和方向Tests.release.xcconfig */,
+				8455E51730DDC8DD00629BE3 /* Pods-自定义弹出按钮和方向UITests.debug.xcconfig */,
+				BB7EF2F3B32D870C82AF8F67 /* Pods-自定义弹出按钮和方向UITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		709F3B6C47EA8E1BEDA5DCF5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				185F16F3C97EBD2369DD2D92 /* libPods-自定义弹出按钮和方向.a */,
+				8B274F8826D9D0CD2B2C8941 /* libPods-自定义弹出按钮和方向Tests.a */,
+				9604A673280D16A16B0B570F /* libPods-自定义弹出按钮和方向UITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E86AC3FC1E8CC7D000AC91E4 = {
+			isa = PBXGroup;
+			children = (
+				E86AC4071E8CC7D000AC91E4 /* 自定义弹出按钮和方向 */,
+				E86AC4211E8CC7D100AC91E4 /* 自定义弹出按钮和方向Tests */,
+				E86AC42C1E8CC7D100AC91E4 /* 自定义弹出按钮和方向UITests */,
+				E86AC4061E8CC7D000AC91E4 /* Products */,
+				191C25D4DFF6707BAC2D1955 /* Pods */,
+				709F3B6C47EA8E1BEDA5DCF5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E86AC4061E8CC7D000AC91E4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E86AC4051E8CC7D000AC91E4 /* 自定义弹出按钮和方向.app */,
+				E86AC41E1E8CC7D100AC91E4 /* 自定义弹出按钮和方向Tests.xctest */,
+				E86AC4291E8CC7D100AC91E4 /* 自定义弹出按钮和方向UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E86AC4071E8CC7D000AC91E4 /* 自定义弹出按钮和方向 */ = {
+			isa = PBXGroup;
+			children = (
+				E86AC43B1E8CC97E00AC91E4 /* SCXPopView */,
+				E86AC40B1E8CC7D000AC91E4 /* AppDelegate.h */,
+				E86AC40C1E8CC7D000AC91E4 /* AppDelegate.m */,
+				E86AC40E1E8CC7D000AC91E4 /* ViewController.h */,
+				E86AC40F1E8CC7D000AC91E4 /* ViewController.m */,
+				E86AC43F1E8CDA7500AC91E4 /* PrefixHeader.pch */,
+				E86AC4111E8CC7D000AC91E4 /* Main.storyboard */,
+				E86AC4141E8CC7D000AC91E4 /* Assets.xcassets */,
+				E86AC4161E8CC7D000AC91E4 /* LaunchScreen.storyboard */,
+				E86AC4191E8CC7D000AC91E4 /* Info.plist */,
+				E86AC4081E8CC7D000AC91E4 /* Supporting Files */,
+			);
+			path = "自定义弹出按钮和方向";
+			sourceTree = "<group>";
+		};
+		E86AC4081E8CC7D000AC91E4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E86AC4091E8CC7D000AC91E4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E86AC4211E8CC7D100AC91E4 /* 自定义弹出按钮和方向Tests */ = {
+			isa = PBXGroup;
+			children = (
+				E86AC4221E8CC7D100AC91E4 /* __________Tests.m */,
+				E86AC4241E8CC7D100AC91E4 /* Info.plist */,
+			);
+			path = "自定义弹出按钮和方向Tests";
+			sourceTree = "<group>";
+		};
+		E86AC42C1E8CC7D100AC91E4 /* 自定义弹出按钮和方向UITests */ = {
+			isa = PBXGroup;
+			children = (
+				E86AC42D1E8CC7D100AC91E4 /* __________UITests.m */,
+				E86AC42F1E8CC7D100AC91E4 /* Info.plist */,
+			);
+			path = "自定义弹出按钮和方向UITests";
+			sourceTree = "<group>";
+		};
+		E86AC43B1E8CC97E00AC91E4 /* SCXPopView */ = {
+			isa = PBXGroup;
+			children = (
+				E86AC43C1E8CC9B800AC91E4 /* SCXPopView.h */,
+				E86AC43D1E8CC9B800AC91E4 /* SCXPopView.m */,
+			);
+			name = SCXPopView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E86AC4041E8CC7D000AC91E4 /* 自定义弹出按钮和方向 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E86AC4321E8CC7D100AC91E4 /* Build configuration list for PBXNativeTarget "自定义弹出按钮和方向" */;
+			buildPhases = (
+				5DE6875869FFF07EA6AEEF60 /* [CP] Check Pods Manifest.lock */,
+				E86AC4011E8CC7D000AC91E4 /* Sources */,
+				E86AC4021E8CC7D000AC91E4 /* Frameworks */,
+				E86AC4031E8CC7D000AC91E4 /* Resources */,
+				D0B613CBC2A1437EE8AC53D9 /* [CP] Embed Pods Frameworks */,
+				013D1FCE00C7C205125FDB5A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "自定义弹出按钮和方向";
+			productName = "自定义弹出按钮和方向";
+			productReference = E86AC4051E8CC7D000AC91E4 /* 自定义弹出按钮和方向.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E86AC41D1E8CC7D100AC91E4 /* 自定义弹出按钮和方向Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E86AC4351E8CC7D100AC91E4 /* Build configuration list for PBXNativeTarget "自定义弹出按钮和方向Tests" */;
+			buildPhases = (
+				A5905A9389A67EA02A60EE36 /* [CP] Check Pods Manifest.lock */,
+				E86AC41A1E8CC7D100AC91E4 /* Sources */,
+				E86AC41B1E8CC7D100AC91E4 /* Frameworks */,
+				E86AC41C1E8CC7D100AC91E4 /* Resources */,
+				02FA9E785EC9C8E5425D3517 /* [CP] Embed Pods Frameworks */,
+				34F3ABB3A5BCD5C0EA08AF41 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E86AC4201E8CC7D100AC91E4 /* PBXTargetDependency */,
+			);
+			name = "自定义弹出按钮和方向Tests";
+			productName = "自定义弹出按钮和方向Tests";
+			productReference = E86AC41E1E8CC7D100AC91E4 /* 自定义弹出按钮和方向Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E86AC4281E8CC7D100AC91E4 /* 自定义弹出按钮和方向UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E86AC4381E8CC7D100AC91E4 /* Build configuration list for PBXNativeTarget "自定义弹出按钮和方向UITests" */;
+			buildPhases = (
+				F087784BDD3B3B2B29AE5F00 /* [CP] Check Pods Manifest.lock */,
+				E86AC4251E8CC7D100AC91E4 /* Sources */,
+				E86AC4261E8CC7D100AC91E4 /* Frameworks */,
+				E86AC4271E8CC7D100AC91E4 /* Resources */,
+				7F543F492530FFE9702E8D9B /* [CP] Embed Pods Frameworks */,
+				E4E0544693EC6C0353B5F7B2 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E86AC42B1E8CC7D100AC91E4 /* PBXTargetDependency */,
+			);
+			name = "自定义弹出按钮和方向UITests";
+			productName = "自定义弹出按钮和方向UITests";
+			productReference = E86AC4291E8CC7D100AC91E4 /* 自定义弹出按钮和方向UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E86AC3FD1E8CC7D000AC91E4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "孙承秀";
+				TargetAttributes = {
+					E86AC4041E8CC7D000AC91E4 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					E86AC41D1E8CC7D100AC91E4 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E86AC4041E8CC7D000AC91E4;
+					};
+					E86AC4281E8CC7D100AC91E4 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E86AC4041E8CC7D000AC91E4;
+					};
+				};
+			};
+			buildConfigurationList = E86AC4001E8CC7D000AC91E4 /* Build configuration list for PBXProject "自定义弹出按钮和方向" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E86AC3FC1E8CC7D000AC91E4;
+			productRefGroup = E86AC4061E8CC7D000AC91E4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E86AC4041E8CC7D000AC91E4 /* 自定义弹出按钮和方向 */,
+				E86AC41D1E8CC7D100AC91E4 /* 自定义弹出按钮和方向Tests */,
+				E86AC4281E8CC7D100AC91E4 /* 自定义弹出按钮和方向UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E86AC4031E8CC7D000AC91E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E86AC4181E8CC7D000AC91E4 /* LaunchScreen.storyboard in Resources */,
+				E86AC4151E8CC7D000AC91E4 /* Assets.xcassets in Resources */,
+				E86AC4131E8CC7D000AC91E4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E86AC41C1E8CC7D100AC91E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E86AC4271E8CC7D100AC91E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		013D1FCE00C7C205125FDB5A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-自定义弹出按钮和方向/Pods-自定义弹出按钮和方向-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		02FA9E785EC9C8E5425D3517 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-自定义弹出按钮和方向Tests/Pods-自定义弹出按钮和方向Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		34F3ABB3A5BCD5C0EA08AF41 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-自定义弹出按钮和方向Tests/Pods-自定义弹出按钮和方向Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5DE6875869FFF07EA6AEEF60 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7F543F492530FFE9702E8D9B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-自定义弹出按钮和方向UITests/Pods-自定义弹出按钮和方向UITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A5905A9389A67EA02A60EE36 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D0B613CBC2A1437EE8AC53D9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-自定义弹出按钮和方向/Pods-自定义弹出按钮和方向-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E4E0544693EC6C0353B5F7B2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-自定义弹出按钮和方向UITests/Pods-自定义弹出按钮和方向UITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F087784BDD3B3B2B29AE5F00 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E86AC4011E8CC7D000AC91E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E86AC4101E8CC7D000AC91E4 /* ViewController.m in Sources */,
+				E86AC40D1E8CC7D000AC91E4 /* AppDelegate.m in Sources */,
+				E86AC40A1E8CC7D000AC91E4 /* main.m in Sources */,
+				E86AC43E1E8CC9B800AC91E4 /* SCXPopView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E86AC41A1E8CC7D100AC91E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E86AC4231E8CC7D100AC91E4 /* __________Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E86AC4251E8CC7D100AC91E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E86AC42E1E8CC7D100AC91E4 /* __________UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E86AC4201E8CC7D100AC91E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E86AC4041E8CC7D000AC91E4 /* 自定义弹出按钮和方向 */;
+			targetProxy = E86AC41F1E8CC7D100AC91E4 /* PBXContainerItemProxy */;
+		};
+		E86AC42B1E8CC7D100AC91E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E86AC4041E8CC7D000AC91E4 /* 自定义弹出按钮和方向 */;
+			targetProxy = E86AC42A1E8CC7D100AC91E4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E86AC4111E8CC7D000AC91E4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E86AC4121E8CC7D000AC91E4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E86AC4161E8CC7D000AC91E4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E86AC4171E8CC7D000AC91E4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E86AC4301E8CC7D100AC91E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E86AC4311E8CC7D100AC91E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E86AC4331E8CC7D100AC91E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78FC47470C658AD6825E434B /* Pods-自定义弹出按钮和方向.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "自定义弹出按钮和方向/PrefixHeader.pch";
+				INFOPLIST_FILE = "自定义弹出按钮和方向/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "StylishSun.----------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E86AC4341E8CC7D100AC91E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC4758857FE02DB9012C3AE8 /* Pods-自定义弹出按钮和方向.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "自定义弹出按钮和方向/PrefixHeader.pch";
+				INFOPLIST_FILE = "自定义弹出按钮和方向/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "StylishSun.----------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E86AC4361E8CC7D100AC91E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7734332B456BCD5E1BE9F00 /* Pods-自定义弹出按钮和方向Tests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "自定义弹出按钮和方向Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "StylishSun.----------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/自定义弹出按钮和方向.app/自定义弹出按钮和方向";
+			};
+			name = Debug;
+		};
+		E86AC4371E8CC7D100AC91E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 695E2ECA59E8EDB9C953F4DB /* Pods-自定义弹出按钮和方向Tests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "自定义弹出按钮和方向Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "StylishSun.----------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/自定义弹出按钮和方向.app/自定义弹出按钮和方向";
+			};
+			name = Release;
+		};
+		E86AC4391E8CC7D100AC91E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8455E51730DDC8DD00629BE3 /* Pods-自定义弹出按钮和方向UITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = "自定义弹出按钮和方向UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "StylishSun.----------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "自定义弹出按钮和方向";
+			};
+			name = Debug;
+		};
+		E86AC43A1E8CC7D100AC91E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB7EF2F3B32D870C82AF8F67 /* Pods-自定义弹出按钮和方向UITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = "自定义弹出按钮和方向UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "StylishSun.----------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "自定义弹出按钮和方向";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E86AC4001E8CC7D000AC91E4 /* Build configuration list for PBXProject "自定义弹出按钮和方向" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E86AC4301E8CC7D100AC91E4 /* Debug */,
+				E86AC4311E8CC7D100AC91E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E86AC4321E8CC7D100AC91E4 /* Build configuration list for PBXNativeTarget "自定义弹出按钮和方向" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E86AC4331E8CC7D100AC91E4 /* Debug */,
+				E86AC4341E8CC7D100AC91E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E86AC4351E8CC7D100AC91E4 /* Build configuration list for PBXNativeTarget "自定义弹出按钮和方向Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E86AC4361E8CC7D100AC91E4 /* Debug */,
+				E86AC4371E8CC7D100AC91E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E86AC4381E8CC7D100AC91E4 /* Build configuration list for PBXNativeTarget "自定义弹出按钮和方向UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E86AC4391E8CC7D100AC91E4 /* Debug */,
+				E86AC43A1E8CC7D100AC91E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E86AC3FD1E8CC7D000AC91E4 /* Project object */;
+}
